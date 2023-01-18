@@ -9,5 +9,6 @@ int main() {
 		i++;
 		sum += i;
 	} while (i != 1000);
+	sum = sum / 1000;
 	cout << "\n = " << sum;
 }
